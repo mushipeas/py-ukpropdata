@@ -40,7 +40,7 @@ def requestDataFromApi(yearMonth, p=0):
 
 # function that collates data from all months in range
 def getDataPerRegion( startYear, endYear ):
-#    print("Main Function Run")
+    #print("Main Function Run")
     dataByRegion = {}
     for year in range(startYear, endYear):
         for month in range(1, 12):
